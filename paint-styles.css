@@ -477,3 +477,10 @@ html.reveal-on .reveal.in { opacity: 1; transform: none; }
   color: var(--accent); background: var(--accent-tint); border-radius: 6px; padding: 3px 8px;
 }
 .divider { height: 1px; background: var(--border); border: none; margin: 0; }
+
+/* Video embed */
+.video-embed { margin-top: 28px; position: relative; aspect-ratio: 16 / 9; border-radius: 14px; overflow: hidden; background: #000; box-shadow: 0 12px 40px rgba(0,0,0,.18); }
+.video-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-embed__alt { margin-top: 12px; font-size: 14px; }
+.video-embed__alt a { color: var(--ink-faint); text-decoration: none; }
+.video-embed__alt a:hover { text-decoration: underline; }
